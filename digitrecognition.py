@@ -59,14 +59,11 @@ def softmax_layer(a):
 
 
 num_iter = 200
-alpha = 0.02
-input11 = []
-mini_batch = 0
 pred_out = []
 
 
 def Backpropogation(input1, output, w1, w2, w3, w4, mini_batch=0): 
-    for k in range(200):  
+    for k in range(num_iter):  
         for i in range(mini_batch, mini_batch+300):
             inp11 = input1[i]
             inp = feature(inp11)
