@@ -3,10 +3,10 @@ import random
 import idx2numpy
 from sklearn.neural_network import MLPClassifier    
 
-file1 = '/home/shikha/train-images.idx3-ubyte'
+file1 = '/train-images.idx3-ubyte'
 input1 = idx2numpy.convert_from_file(file1)
 
-file2 = '/home/shikha/train-labels.idx1-ubyte'
+file2 = '/train-labels.idx1-ubyte'
 output = idx2numpy.convert_from_file(file2)
 
 
